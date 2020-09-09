@@ -1,0 +1,63 @@
+/*StartScreen workspace*/
+onEvent("StartButton","click", function(){
+  setScreen("OptionScreen");
+  playSound("sound://category_app/app_menu_button_4.mp3");
+});
+
+/*************************************************/
+
+//OptionScreen workspace
+onEvent("GraphicsCardButton","click", function(){
+  setScreen("GraphicsCardScreen");
+  playSound("sound://category_app/app_menu_button_4.mp3");
+}); 
+
+onEvent("HDDSSDButton","click", function(){
+  setScreen("StorageScreen");
+  playSound("sound://category_app/app_menu_button_4.mp3");
+});
+
+onEvent("MotherBoardButton","click", function(){
+  setScreen("MotherBoardCpu");
+  playSound("sound://category_app/app_menu_button_4.mp3");
+});
+
+onEvent("RamButton","click", function(){
+  setScreen("RamScreen");
+  playSound("sound://category_app/app_menu_button_4.mp3");
+});
+
+/*************************************************/
+
+//GraphicsCardScreen workspace
+onEvent("Option1Back","click", function(){
+  setScreen("OptionScreen");
+  playSound("sound://category_app/app_menu_button_4.mp3");
+});
+
+
+/*************************************************/
+
+//StorageScreen
+onEvent("BackOption2","click", function(){
+  setScreen("OptionScreen");
+  playSound("sound://category_app/app_menu_button_4.mp3");
+});
+
+
+/*************************************************/
+
+//MotherBoardCpu
+onEvent("BackOptionThree","click", function(){
+  setScreen("OptionScreen");
+  playSound("sound://category_app/app_menu_button_4.mp3");
+});
+
+
+/*************************************************/
+
+//RamScreen
+onEvent("BackOption4","click", function(){
+  setScreen("OptionScreen");
+  playSound("sound://category_app/app_menu_button_4.mp3");
+});
